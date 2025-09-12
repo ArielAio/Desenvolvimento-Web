@@ -1,0 +1,42 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.estilo1 {
+  background-color: green;
+}
+
+.estilo2 {
+  background-color: lightgreen;
+}
+
+.estilo3 {
+  background-color: grey;
+}
+
+.estilo4 {
+  background-color: black;
+}
+
+.estilo5 {
+  background-color: lightgrey;
+}
+
+.estilo6 {
+  background-color: blue;
+}
+
+.estilo7 {
+  background-color: lightblue;
+}
+
+.estilo8 {
+  background-color: rgb(103, 103, 197);
+}
+
+.estilo-tabela {
+  color: white;
+  background-color: black;
+}

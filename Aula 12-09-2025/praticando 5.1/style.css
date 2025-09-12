@@ -1,0 +1,85 @@
+/* ====================
+   ESTILOS BÁSICOS
+   ==================== */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* ====================
+   ESTRUTURA DA PÁGINA
+   ==================== */
+
+/* Estilização do cabeçalho */
+header {
+    text-align: left;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+/* Configuração das seções */
+section {
+    padding: 15px;
+    margin: 15px;
+    background-color: #e6ffe6;
+}
+
+/* Estilização do rodapé */
+footer {
+    padding: 15px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+/* ====================
+   TÍTULOS E TEXTO
+   ==================== */
+
+/* Configuração dos subtítulos */
+h2 {
+    margin-top: 0;
+}
+
+/* ====================
+   CONTAINERS E CAIXAS
+   ==================== */
+
+/* Caixa padrão de texto */
+.caixa {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+/* Caixa com destaque especial */
+.caixa-destaque {
+    padding: 10px;
+    border: 2px solid red;
+    background-color: yellow;
+}
+
+/* ====================
+   CORES DO TEXTO
+   ==================== */
+
+/* Texto em azul */
+.azul {
+    font-weight: bold;
+    color: blue;
+}
+
+/* Texto em verde */
+.verde {
+    font-weight: bold;
+    color: green;
+}
+
+/* Texto em vermelho */
+.vermelho {
+    font-weight: bold;
+    color: red;
+}
