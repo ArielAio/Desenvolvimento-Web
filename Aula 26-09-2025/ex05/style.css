@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0.5vw 3vw;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+
+.secao1 { background-color: #cce7f0; font-family: 'Lobster', cursive; }
+.secao2 { background-color: #f8c8c8; font-family: 'Roboto', sans-serif; }
+.secao3 { background-color: #baf5b0; font-family: 'Merriweather', serif; }
+.secao4 { background-color: #dcdcdc; font-family: 'Pacifico', cursive; }
+.secao5 { background-color: #f5b48f; font-family: 'Oswald', sans-serif; }
+
+.destaque {
+    color: red;
+    font-weight: bold;
+}

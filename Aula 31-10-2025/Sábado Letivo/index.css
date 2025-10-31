@@ -1,0 +1,114 @@
+body {
+    background: linear-gradient(135deg, #1a0033 0%, #2d1b4e 100%);
+    min-height: 100vh;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #0d0018 0%, #1a0033 100%) !important;
+    border-bottom: 2px solid #8b5cf6 !important;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    color: #a78bfa !important;
+    text-shadow: 0 0 10px rgba(139, 92, 246, 0.5);
+}
+
+.nav-link {
+    color: #c4b5fd !important;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #8b5cf6 !important;
+}
+
+.card {
+    border-radius: 12px;
+    background: rgba(13, 0, 24, 0.8);
+    border: 1px solid #8b5cf6;
+    box-shadow: 0 8px 32px rgba(139, 92, 246, 0.3);
+}
+
+.card-body {
+    background: rgba(26, 0, 51, 0.6);
+    border-radius: 12px;
+}
+
+.card-body h2 {
+    color: #a78bfa;
+    text-shadow: 0 0 10px rgba(139, 92, 246, 0.5);
+}
+
+.form-label {
+    font-weight: 500;
+    color: #c4b5fd;
+    margin-bottom: 0.5rem;
+}
+
+.form-control,
+.form-select {
+    background-color: rgba(13, 0, 24, 0.6);
+    border: 1px solid #6d28d9;
+    color: #e9d5ff;
+    transition: all 0.3s ease;
+}
+
+.form-control::placeholder {
+    color: #9333ea;
+}
+
+.form-control:focus,
+.form-select:focus {
+    background-color: rgba(13, 0, 24, 0.8);
+    border-color: #8b5cf6;
+    box-shadow: 0 0 0 0.25rem rgba(139, 92, 246, 0.25);
+    color: #e9d5ff;
+}
+
+.form-check-input {
+    background-color: rgba(13, 0, 24, 0.6);
+    border-color: #6d28d9;
+}
+
+.form-check-input:checked {
+    background-color: #8b5cf6;
+    border-color: #8b5cf6;
+}
+
+.form-check-input:focus {
+    border-color: #8b5cf6;
+    box-shadow: 0 0 0 0.25rem rgba(139, 92, 246, 0.25);
+}
+
+.form-check-label {
+    color: #c4b5fd;
+}
+
+.btn-dark {
+    background: linear-gradient(135deg, #6d28d9 0%, #8b5cf6 100%);
+    border: none;
+    box-shadow: 0 4px 15px rgba(139, 92, 246, 0.4);
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn-dark:hover {
+    background: linear-gradient(135deg, #8b5cf6 0%, #a78bfa 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(139, 92, 246, 0.6);
+}
+
+.btn-outline-secondary {
+    border-color: #8b5cf6;
+    color: #a78bfa;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #8b5cf6;
+    border-color: #8b5cf6;
+    color: #fff;
+    transform: translateY(-2px);
+}

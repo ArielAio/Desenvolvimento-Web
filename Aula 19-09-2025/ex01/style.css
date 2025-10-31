@@ -1,0 +1,119 @@
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #d3d3d3;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: left;
+            margin: 10px 0 20px 0;
+            font-size: 24px;
+        }
+
+        /* Menu de navegação */
+        nav {
+            background-color: d3d3d3;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            margin: 3px 0;
+            margin-left: 20px;
+        }
+
+        a {
+            text-decoration: underline;
+            color: blue;
+            font-weight: normal;
+        }
+
+        a:visited {
+            color: purple;
+        }
+
+        /* Separador entre menu e conteúdo */
+        .separator {
+            background-color: #878787;
+            height: 2px;
+            margin: 10px 0;
+        }
+
+        .blocos {
+            background-color: #878787;
+        }
+
+        .bloco {
+            padding: 15px;
+            margin: 10px 0;
+        }
+
+        .bloco h3 {
+            margin-top: 0;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        /* Cores dos blocos */
+        .transparente { 
+            background-color: #878787; 
+        }
+        
+        .vermelho { 
+            background-color: #f18d8d; 
+        }
+        
+        .verde { 
+            background-color: #90ee90; 
+        }
+        
+        .azul { 
+            background-color: #add8e6; 
+        }
+        
+        .amarelo { 
+            background-color: #ffffe0; 
+        }
+        
+        .preto { 
+            background-color: #5f5d5d; 
+            color: white; 
+        }
+
+        /* Destaques dentro do texto */
+        .bg-vermelho { 
+            background-color: #ff0000; 
+            color: white;
+            padding: 1px 2px;
+        }
+        
+        .bg-verde { 
+            background-color: #008000; 
+            color: white;
+            padding: 1px 2px;
+        }
+        
+        .bg-azul { 
+            background-color: #0000ff; 
+            color: white;
+            padding: 1px 2px;
+        }
+        
+        .bg-amarelo { 
+            background-color: #ffff00; 
+            color: black;
+            padding: 1px 2px;
+        }
+        
+        .bg-preto { 
+            background-color: #000000; 
+            color: white;
+            padding: 1px 2px;
+        }

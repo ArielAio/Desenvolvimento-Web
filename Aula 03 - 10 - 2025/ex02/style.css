@@ -1,0 +1,102 @@
+.fonte{
+  font-family: 'Lobster', cursive;
+}
+
+.divVerde{
+  background-color: rgb(110, 207, 110);
+  width: 100%;
+  min-height: 30vh;
+  border-top: 1vh solid rgb(4, 0, 253);
+  border-bottom: 1vh solid rgb(4, 0, 253);
+  position: relative;
+}
+
+.divVermelha{
+  background-color: rgb(212, 123, 123);
+  width: 100%;
+  min-height: 30vh;
+  border-top: 1vh solid rgb(240, 15, 15);
+  border-bottom: 1vh solid rgb(240, 15, 15);
+  position: relative;
+}
+
+.divVerde h1 {
+  position: absolute;
+  top: 2vh;
+  left: 3vw;
+  margin: 0;
+  color: black;
+  font-size: 3vw;
+  line-height: 1.2;
+}
+
+.divVermelha h1 {
+  position: absolute;
+  top: 2vh;
+  right: 3vw;
+  margin: 0;
+  color: black;
+  font-size: 3vw;
+  line-height: 1.2;
+}
+
+.containerImagens {
+  position: absolute;
+  bottom: 3vh;
+  display: flex;
+  align-items: flex-end;
+  gap: 1vw;
+}
+
+
+.divVerde .containerImagens {
+  left: 3vw;
+}
+
+.divVermelha .containerImagens {
+  right: 3vw;
+}
+
+.containerImagens img {
+  height: auto;
+  max-width: 100%;
+}
+
+.lhama-pequena {
+  width: 10vw;
+}
+
+.lhama-media {
+  width: 12vw;
+}
+
+.lhama-grande {
+  width: 14vw;
+}
+
+.lhama-extra-grande {
+  width: 16vw;
+}
+
+@media (max-width: 600px) {
+  .divVerde h1,
+  .divVermelha h1 {
+    font-size: 5vw;
+  }
+
+  .lhama-pequena {
+    width: 18vw;
+  }
+
+  .lhama-media {
+    width: 20vw;
+  }
+
+  .lhama-grande {
+    width: 22vw;
+  }
+
+  .lhama-extra-grande {
+    width: 24vw;
+  }
+}

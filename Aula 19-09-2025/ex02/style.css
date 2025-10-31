@@ -1,0 +1,25 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 12px;
+}
+
+h1 { margin: 0 0 12px 0; }
+p  { margin: 8px 0; }
+
+/* Estrutura */
+.faixa { margin: 16px 0; }
+.linha { margin: 0; padding: 10px 0; }
+
+/* Verdes */
+.verde-claro { background: #b7f7b7; }
+.verde-escuro { background: #0b660b; color: #eaffea; }
+.verde-bem-escuro { background: #053d05; color: #eaffea; }
+
+/* Vermelhos */
+.vermelho-claro { background: #ff1a1a; color: #fff5f5; }
+.vermelho-escuro { background: #8f0b0b; color: #ffeaea; }
+.vermelho-bem-escuro { background: #5c0909; color: #ffeaea; }
+
+.assinatura { height: 24px; }
+

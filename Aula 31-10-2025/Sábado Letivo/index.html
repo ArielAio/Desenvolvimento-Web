@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Compra</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+      <div class="container">
+        <a class="navbar-brand" href="#">🎮 Game Store</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Formulário</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galery.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="info.html">Informações</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <div class="card border-0 shadow-sm">
+            <div class="card-body p-4">
+              <h2 class="mb-4">Formulário de Compra de Jogos</h2>
+              <form>
+                <div class="mb-3">
+                  <label for="nome" class="form-label">Nome Completo</label>
+                  <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo" />
+                </div>
+
+                <div class="mb-3">
+                  <label for="email" class="form-label">E-mail</label>
+                  <input type="email" class="form-control" id="email" placeholder="seuemail@exemplo.com" />
+                </div>
+
+                <div class="mb-3">
+                  <label for="telefone" class="form-label">Telefone</label>
+                  <input type="tel" class="form-control" id="telefone" placeholder="(99) 99999-9999" />
+                </div>
+
+                <div class="mb-3">
+                  <label for="website" class="form-label">Perfil Steam/Epic Games</label>
+                  <input type="url" class="form-control" id="website" placeholder="https://steamcommunity.com/id/seu-perfil" />
+                </div>
+
+                <div class="mb-3">
+                  <label for="idade" class="form-label">Idade</label>
+                  <input type="number" class="form-control" id="idade" min="13" max="100" placeholder="18" />
+                </div>
+
+                <div class="mb-3">
+                  <label for="dataVisita" class="form-label">Data de Entrega Desejada</label>
+                  <input type="date" class="form-control" id="dataVisita" />
+                </div>
+
+                <div class="mb-3">
+                  <label for="documento" class="form-label">Comprovante de Pagamento</label>
+                  <input type="file" class="form-control" id="documento" accept=".pdf,.jpg,.jpeg,.png" />
+                </div>
+
+                <div class="mb-3">
+                  <label for="gatoEscolha" class="form-label">Qual jogo você deseja comprar?</label>
+                  <select class="form-select" id="gatoEscolha">
+                    <option selected>Selecione um jogo...</option>
+                    <option value="jogo1">The Last of Us Part II</option>
+                    <option value="jogo2">God of War Ragnarök</option>
+                    <option value="jogo3">Elden Ring</option>
+                  </select>
+                </div>
+
+                <div class="mb-3">
+                  <label for="motivo" class="form-label">Por que você está interessado neste jogo?</label>
+                  <textarea class="form-control" id="motivo" rows="4" placeholder="Conte-nos sobre seu interesse..."></textarea>
+                </div>
+
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="termos" />
+                  <label class="form-check-label" for="termos">
+                    Eu aceito os termos e condições de compra
+                  </label>
+                </div>
+
+                <div class="mb-4">
+                  <label class="form-label">Quais plataformas você possui?</label>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="ps5" id="item1" />
+                    <label class="form-check-label" for="item1">PlayStation 5</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="xbox" id="item2" />
+                    <label class="form-check-label" for="item2">Xbox Series X/S</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="pc" id="item3" />
+                    <label class="form-check-label" for="item3">PC Gamer</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="switch" id="item4" />
+                    <label class="form-check-label" for="item4">Nintendo Switch</label>
+                  </div>
+                </div>
+
+                <div class="d-flex gap-2 justify-content-end">
+                  <button type="reset" class="btn btn-outline-secondary">Limpar</button>
+                  <button type="submit" class="btn btn-dark">Enviar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
